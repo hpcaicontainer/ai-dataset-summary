@@ -1,0 +1,136 @@
+(% class="box infomessage" %)
+(((
+本页主要介绍常用的数据集
+)))
+
+== ImageNet ==
+
+(% border="2" class="table-bordered" %)
+|(% style="width:164px" %)(((
+**ImageNet介绍：**
+)))|(% style="width:1047px" %)(((
+ImageNet是现在公开的最大的图片数据集，有上百G的数据，包含上千种的物体，支持物体的分类，识别，分割。
+)))
+|(% style="width:164px" %)(((
+**ImageNet竞赛：**
+)))|(% style="width:1047px" %)(((
+Large Scale Visual Recognition Challenge，包括三种，图片分类，物体识别，物体分割。以前竞赛由imagenet组织，现在由kaggle组织。
+
+组委会提供的竞赛用的数据通常用ILSVRC开头，如下图：
+
+[[image:1516459961468-792.png||height="156" width="343"]]
+
+竞赛官网：[[http:~~/~~/www.image-net.org/>>url:http://www.image-net.org/]]  [[https:~~/~~/www.kaggle.com/c/imagenet-object-localization-challenge>>url:https://www.kaggle.com/c/imagenet-object-localization-challenge]]
+)))
+|(% style="width:164px" %)**ImageNet官网：**|(% style="width:1047px" %)[[http:~~/~~/www.image-net.org/>>url:http://www.image-net.org/]]
+|(% style="width:164px" %)**下载地址：**|(% style="width:1047px" %)(((
+[[http:~~/~~/www.image-net.org/>>url:http://www.image-net.org/]]  或者 [[https:~~/~~/link.zhihu.com/?target=http%3A~~/~~/pan.baidu.com/s/1dDizyed%23path%3D%25252F>>url:https://link.zhihu.com/?target=http%3A//pan.baidu.com/s/1dDizyed%23path%3D%25252F]]
+)))
+
+==   ==
+
+== Pascal VOC ==
+
+(% border="3" cellpadding="1" cellspacing="1" style="margin-right:auto" class="table-bordered" %)
+|(% style="width:164px" %)**Pascal VOC介绍：**|(% style="width:1047px" %)PASCAL VOC(pattern analysis,statistical modelling and computational learning    visual object classes)是一个图片数据集，支持的物体种类为20种，支持物体的分类，识别，分割。2007年的数据集和2012年的数据集是大家常用的数据集。
+|(% style="width:164px" %)**Pascal VOC竞赛：**|(% style="width:1047px" %)(((
+The PASCAL Visual Object Classes (VOC) Challenge， 这个竞赛在2012年以后停办，竞赛提供的数据通常以VOC开头，如下图：
+
+[[image:1516459800830-421.png||height="130" width="196"]]
+
+竞赛官网：[[http:~~/~~/host.robots.ox.ac.uk/pascal/VOC/>>url:http://host.robots.ox.ac.uk/pascal/VOC/]]
+)))
+|(% style="width:164px" %)**Pascal VOC官网：**|(% style="width:1047px" %)[[http:~~/~~/host.robots.ox.ac.uk/pascal/VOC/>>url:http://host.robots.ox.ac.uk/pascal/VOC/]]
+|(% style="width:164px" %)**下载地址：**|(% style="width:1047px" %)[[https:~~/~~/pjreddie.com/projects/pascal-voc-dataset-mirror/>>url:https://pjreddie.com/projects/pascal-voc-dataset-mirror/]]或者[[https:~~/~~/pan.baidu.com/s/1oAh0JPo>>url:https://pan.baidu.com/s/1oAh0JPo]]
+
+==   ==
+
+== CIFAR-10和CIFAR-100 ==
+
+(% border="3" class="table-bordered" %)
+|(% style="width:167px" %)(((
+**CIFAR介绍：**
+)))|(% style="width:1044px" %)(((
+CIFAR分为CIFAR-10和CIFAR-100，CIFAR只支持用来做图像分类，CIFAR-10共有10中类别，CIFAR-100共有100中类别。
+
+CIFAR-10有60000张32*32的彩色图片，每种分类6000张，支持的10个类别如下：
+
+[[image:1516462713333-331.png||height="257" width="337"]]
+
+CIFAR-100支持的100中类型如下，每种分类600张:
+
+[[image:1516462895938-958.png||height="300" width="471"]]
+)))
+|(% style="width:167px" %)**CIFAR官网：**|(% style="width:1044px" %)[[http:~~/~~/www.cs.toronto.edu/~~~~kriz/cifar.html>>url:http://www.cs.toronto.edu/~~kriz/cifar.html]]
+|(% style="width:167px" %)**下载地址：**|(% style="width:1044px" %)(((
+[[http:~~/~~/www.cs.toronto.edu/~~~~kriz/cifar.html>>url:http://www.cs.toronto.edu/~~kriz/cifar.html]]或者[[https:~~/~~/pan.baidu.com/s/1dGiiOXr>>url:https://pan.baidu.com/s/1dGiiOXr]]
+)))
+
+==   ==
+
+== MNIST ==
+
+(% border="3" class="table-bordered" %)
+|(% style="width:169px" %)(((
+**MNIST介绍：**
+)))|(% style="width:1042px" %)深度学习领域的入门数据集，提供手写数字，用来做手写数字的分类。大约有70000张图片，是黑白图片，但是要注意数据集是白底黑字还是黑底白字。
+|(% style="width:169px" %)**CIFAR官网：**|(% style="width:1042px" %)[[http:~~/~~/yann.lecun.com/exdb/mnist/>>url:http://yann.lecun.com/exdb/mnist/]]
+|(% style="width:169px" %)**下载地址：**|(% style="width:1042px" %)[[http:~~/~~/yann.lecun.com/exdb/mnist/>>url:http://yann.lecun.com/exdb/mnist/]]或者[[https:~~/~~/pan.baidu.com/s/1ghdBpAj>>url:https://pan.baidu.com/s/1ghdBpAj]]
+
+==   ==
+
+== NYU Depth Dataset V2 ==
+
+(% border="3" class="table-bordered" %)
+|(% style="width:174px" %)(((
+**NYU Depth Dataset V2：**
+)))|(% style="width:1037px" %)(((
+很大的一个数据集，主要针对室内，图片有深度信息。
+
+[[image:1516465749866-801.png||height="215" width="361"]]
+)))
+|(% style="width:174px" %)**NYU Depth Dataset V2官网：**|(% style="width:1037px" %)[[https:~~/~~/cs.nyu.edu/~~~~silberman/datasets/nyu_depth_v2.html>>url:https://cs.nyu.edu/~~silberman/datasets/nyu_depth_v2.html]]
+|(% style="width:174px" %)**下载地址：**|(% style="width:1037px" %)[[https:~~/~~/cs.nyu.edu/~~~~silberman/datasets/nyu_depth_v2.html>>url:https://cs.nyu.edu/~~silberman/datasets/nyu_depth_v2.html]]
+
+== Visual Dictionary ==
+
+(% border="3" class="table-bordered" %)
+|(% style="width:176px" %)(((
+**Visual Dictionary：**
+)))|(% style="width:1035px" %)(((
+CIFAR是他的一个子集，里面有很多小的图片。
+
+[[image:1516465814002-418.png||height="227" width="307"]]
+)))
+|(% style="width:176px" %)**Visual Dictionary官网：**|(% style="width:1035px" %)[[http:~~/~~/groups.csail.mit.edu/vision/TinyImages/>>url:http://groups.csail.mit.edu/vision/TinyImages/]]
+|(% style="width:176px" %)**下载地址：**|(% style="width:1035px" %)[[http:~~/~~/groups.csail.mit.edu/vision/TinyImages/>>url:http://groups.csail.mit.edu/vision/TinyImages/]]
+
+== COCO ==
+
+(% border="3" class="table-bordered" %)
+|(% style="width:176px" %)(((
+**COCO：**
+)))|(% style="width:1035px" %)(((
+COCO数据集是微软团队获取的一个可以用来图像recognition+segmentation+captioning 数据集，其官方说明网址：[[http:~~/~~/mscoco.org/>>url:http://mscoco.org/]]。
+
+
+该数据集主要有的特点如下：（1）Object segmentation（2）Recognition in Context（3）Multiple objects per image（4）More than 300,000 images（5）More than 2 Million instances（6）80 object categories（7）5 captions per image（8）Keypoints on 100,000 people
+
+
+为了更好的介绍这个数据集，微软在ECCV Workshops里发表这篇文章：Microsoft COCO: Common Objects in Context。从这篇文章中，我们了解了这个数据集以scene understanding为目标，主要从复杂的日常场景中截取，图像中的目标通过精确的segmentation进行位置的标定。图像包括91类目标，328,000影像和2,500,000个label。
+)))
+|(% style="width:176px" %)**Visual Dictionary官网：**|(% style="width:1035px" %)[[http:~~/~~/mscoco.org/>>url:http://mscoco.org/]]
+|(% style="width:176px" %)**下载地址：**|(% style="width:1035px" %)(((
+[[http:~~/~~/mscoco.org/>>url:http://mscoco.org/]]
+
+使用wget -c（断点续传）下载速度很快
+
+[[http:~~/~~/images.cocodataset.org/zips/train2017.zip>>url:http://images.cocodataset.org/zips/train2017.zip]]
+[[http:~~/~~/images.cocodataset.org/annotations/annotations_trainval2017.zip>>url:http://images.cocodataset.org/annotations/annotations_trainval2017.zip]]
+
+[[http:~~/~~/images.cocodataset.org/zips/val2017.zip>>url:http://images.cocodataset.org/zips/val2017.zip]]
+[[http:~~/~~/images.cocodataset.org/annotations/stuff_annotations_trainval2017.zip>>url:http://images.cocodataset.org/annotations/stuff_annotations_trainval2017.zip]]
+
+[[http:~~/~~/images.cocodataset.org/zips/test2017.zip>>url:http://images.cocodataset.org/zips/test2017.zip]]
+[[http:~~/~~/images.cocodataset.org/annotations/image_info_test2017.zip>>url:http://images.cocodataset.org/annotations/image_info_test2017.zip]] 
+)))
