@@ -22,7 +22,7 @@ http://host.robots.ox.ac.uk/pascal/VOC/
 下载地址：   
 https://pjreddie.com/projects/pascal-voc-dataset-mirror/或者https://pan.baidu.com/s/1oAh0JPo   
 
-#CIFAR-10和CIFAR-100
+# CIFAR-10和CIFAR-100
 >CIFAR介绍：   
 CIFAR分为CIFAR-10和CIFAR-100，CIFAR只支持用来做图像分类，CIFAR-10共有10中类别，CIFAR-100共有100中类别。   
 CIFAR-10有60000张32*32的彩色图片，每种分类6000张，支持的10个类别   
@@ -31,26 +31,26 @@ CIFAR官网：	http://www.cs.toronto.edu/~kriz/cifar.html
 下载地址：	   
 http://www.cs.toronto.edu/~kriz/cifar.html或者https://pan.baidu.com/s/1dGiiOXr   
 
-#MNIST
+# MNIST
 >MNIST介绍：   
 深度学习领域的入门数据集，提供手写数字，用来做手写数字的分类。大约有70000张图片，是黑白图片，但是要注意数据集是白底黑字还是黑底白字。   
 CIFAR官网：	http://yann.lecun.com/exdb/mnist/   
 下载地址：	http://yann.lecun.com/exdb/mnist/或者https://pan.baidu.com/s/1ghdBpAj   
 
-#NYU Depth Dataset V2
+# NYU Depth Dataset V2
 >NYU Depth Dataset V2：     
 很大的一个数据集，主要针对室内，图片有深度信息。    
 NYU Depth Dataset V2官网：	https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html   
 下载地址：	https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html   
 
-#Visual Dictionary
+# Visual Dictionary
 >Visual Dictionary：   
 CIFAR是他的一个子集，里面有很多小的图片。   
 Visual Dictionary官网：	http://groups.csail.mit.edu/vision/TinyImages/   
 下载地址：	http://groups.csail.mit.edu/vision/TinyImages/   
 
 
-#COCO
+# COCO
 >COCO：   
 COCO数据集是微软团队获取的一个可以用来图像recognition+segmentation+captioning 数据集，其官方说明网址：http://mscoco.org/。  
 该数据集主要有的特点如下：（1）Object segmentation（2）Recognition in Context（3）Multiple objects per image（4）More than 300,000 images（5）More than 2 Million instances（6）80 object categories（7）5 captions per image（8）Keypoints on 100,000 people   
