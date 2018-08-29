@@ -8,7 +8,7 @@ http://www.image-net.org/ 或者 https://www.kaggle.com/c/imagenet-object-locali
 ImageNet官网：	  
 http://www.image-net.org/  
 下载地址：	  
-http://www.image-net.org/  或者 https://link.zhihu.com/?   target=http%3A//pan.baidu.com/s/1dDizyed%23path%3D%25252F   
+http://www.image-net.org/  或者 https://link.zhihu.com/?target=http%3A//pan.baidu.com/s/1dDizyed%23path%3D%25252F
 
 # Pascal VOC
 Pascal VOC介绍：	  
